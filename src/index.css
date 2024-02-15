@@ -13,14 +13,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+.App {
   font-weight: 500;
-  color: #646cff;
+  color: #9498f0;
   text-decoration: inherit;
 }
-a:hover {
+.App:hover {
   color: #535bf2;
 }
+
+.featured{
+  border: solid rgb(220, 202, 234) 2px;
+  background-color: rgb(230, 220, 248);
+  border-radius: 5px;
+  display:inline-block;
+  align-items: left;
+  padding: 5px;
+  width: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 
 body {
   margin: 0;
@@ -33,6 +47,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2{
+  text-align: center;
 }
 
 button {
